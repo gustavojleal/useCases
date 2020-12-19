@@ -7,12 +7,14 @@
     "username": "postgres",
     "password": "docker",
     "database": "easy_kanban",
-
+    "entities": [
+      "./src/modules/**/infra/typeorm/entities/*.ts"
+    ],
     "migrations": [
-      "./src/database/migrations"
+      "./src/shared/infra/typeorm/migrations/*.ts"
     ],
     "cli": {
-      "migrationsDir": "./src/database/typeorm/migrations"
+      "migrationsDir": "./src/shared/infra/typeorm/migrations"
     }
   },
   {
@@ -22,5 +24,8 @@
     "port": 27017,
     "database": "easy-kanban",
     "useUnifiedTopology": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
   }
 ]
