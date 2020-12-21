@@ -1,0 +1,29 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "database": "easy_kanban",
+    "entities": [ 
+      "./src/entities/*.ts"
+    ],
+    "migrations": [
+      "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+      "entitiesDir": "/src/entities",
+      "migrationsDir": "./src/database/migrations/*.ts"
+    }
+  },
+  {
+    "name": "mongo",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "easy-kanban",
+    "useUnifiedTopology": true
+  }
+]

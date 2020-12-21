@@ -1,0 +1,87 @@
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .env
+	new file:   .gitignore
+	new file:   .vscode/settings.json
+	new file:   README.md
+	new file:   babel.config.js
+	new file:   files/0504f34991c84d99409f-IMG-20200814-WA0015.jpg
+	new file:   files/avatarPlaceHolder.svg
+	new file:   files/uploads/7580a7155c936b918af1-IMG-20200814-WA0015.jpg
+	new file:   files/uploads/avatarPlaceHolder.svg
+	new file:   jest.config.js
+	new file:   ormconfig copy.json
+	new file:   ormconfig.json
+	new file:   package.json
+	new file:   prettier.config.js
+	new file:   src/@types/express.d.ts
+	new file:   src/app.ts
+	new file:   src/config/auth.ts
+	new file:   src/config/cache.ts
+	new file:   src/config/mail.ts
+	new file:   src/config/upload.ts
+	new file:   src/database/typeorm/index.ts
+	new file:   src/database/typeorm/migrations/*.ts/1608493720634-User.ts
+	new file:   src/database/typeorm/migrations/*.ts/1608493749944-UserToken.ts
+	new file:   src/entities/IUserTokensRepository.ts
+	new file:   src/entities/User.ts
+	new file:   src/entities/UserToken.ts
+	new file:   src/middlewares/ensureAuthenticated.ts
+	new file:   src/middlewares/rateLimiter.ts
+	new file:   src/providers/CacheProvider/implementations/RedisCacheProvider.ts
+	new file:   src/providers/CacheProvider/index.ts
+	new file:   src/providers/CacheProvider/models/ICacheProvider.ts
+	new file:   src/providers/IMailProvider/MailTemplateProvider/dtos/IParseMailTemplateDTO.ts
+	new file:   src/providers/IMailProvider/MailTemplateProvider/implementations/HandlebarsMailTemplateProvider.ts
+	new file:   src/providers/IMailProvider/MailTemplateProvider/index.ts
+	new file:   src/providers/IMailProvider/MailTemplateProvider/models/IMailTemplateProvider.ts
+	new file:   src/providers/IMailProvider/dtos/ISendMailDTO.ts
+	new file:   src/providers/IMailProvider/implementations/EtherealMailProvider.ts
+	new file:   src/providers/IMailProvider/implementations/SESMailProvider.ts
+	new file:   src/providers/IMailProvider/implementations/index.ts
+	new file:   src/providers/IMailProvider/models/IMailProvider.ts
+	new file:   src/providers/StorageProvider/implementations/DiskStorageProvider.ts
+	new file:   src/providers/StorageProvider/implementations/S3StorageProvider.ts
+	new file:   src/providers/StorageProvider/index.ts
+	new file:   src/providers/StorageProvider/models/IStorageProvider.ts
+	new file:   src/repositories/IUserTokensRepository.ts
+	new file:   src/repositories/IUsersRepository.ts
+	new file:   src/repositories/implementations/PostgresUsersRepository.ts
+	new file:   src/routes.ts
+	new file:   src/server.ts
+	new file:   src/shared/HashProvider/implementations/BCryptHashProvider.ts
+	new file:   src/shared/HashProvider/index.ts
+	new file:   src/shared/HashProvider/models/IHashProvider.ts
+	new file:   src/shared/errors/AppError.ts
+	new file:   src/useCases/CreateSessions/AuthenticateUserUseCase.ts
+	new file:   src/useCases/CreateSessions/SessionsController.ts
+	new file:   src/useCases/CreateUser/CreateUserController.ts
+	new file:   src/useCases/CreateUser/CreateUserDTO.ts
+	new file:   src/useCases/CreateUser/CreateUserUseCase.ts
+	new file:   src/useCases/Passwords/ForgotPasswordController.ts
+	new file:   src/useCases/Passwords/ResetPasswordController.ts
+	new file:   src/useCases/Passwords/ResetPasswordUseCase.ts
+	new file:   src/useCases/Passwords/SendForgotPasswordEmailUseCase.ts
+	new file:   src/useCases/Passwords/views/forgot_password.hbs
+	new file:   src/useCases/UserProfile/ProfileController.ts
+	new file:   src/useCases/UserProfile/ShowProfileService.ts
+	new file:   src/useCases/UserProfile/UpdateProfileService.ts
+	new file:   src/useCases/UserProfile/UpdateUserAvatarService.ts
+	new file:   src/useCases/routes/password.routes.ts
+	new file:   src/useCases/routes/profile.routes.ts
+	new file:   src/useCases/routes/sessions.routes.ts
+	new file:   src/useCases/routes/users.routes.ts
+	new file:   text.txt
+	new file:   tsconfig copy.json
+	new file:   tsconfig.json
+	new file:   yarn.lock
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   text.txt
+
